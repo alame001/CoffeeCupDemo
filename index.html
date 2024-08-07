@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffeeCup</title>
+    <link rel="stylesheet" href="coffee.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header class="navbar-Container">
+            <div class="navbar">
+                <div class="nav-right">
+                    <h2>CoffeeCup</h2>
+                    <img class="cup" src="./images/coffeeCup.png" alt="CupCoffee" loading="lazy">
+                </div>
+                <div class="nav-left">
+                    <a href="#">Home</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+        </header>
+
+        <div class="scroll-container">
+            <div class="slider-control left" id="left-arrow">&lt;</div>
+            <div class="slider-control right" id="right-arrow">&gt;</div>
+            <section class="Hero-Section" id="section1">
+                <h2 class="hero-heading">Dark Roast Mug</h2>
+                <p class="hero-desc">"Life is just one cup of coffee after another, and don't look for anything else."</p>
+                <div class="hero-btn">
+                    <button class="btn">Book a Table</button>
+                </div>
+            </section>
+            <section class="Hero-Section" id="section2" style="display: none;">
+                <h2 class="hero-heading">Espresso Delight</h2>
+                <p class="hero-desc">"Espresso is to coffee as a gold bar is to money."</p>
+                <div class="hero-btn">
+                    <button class="btn">Order Now</button>
+                </div>
+            </section>
+            <section class="Hero-Section" id="section3" style="display: none;">
+                <h2 class="hero-heading">Latte Love</h2>
+                <p class="hero-desc">"A latte a day keeps the worries away."</p>
+                <div class="hero-btn">
+                    <button class="btn">Try It</button>
+                </div>
+            </section>
+        </div>
+        <main id="menu">
+
+        </main>
+        <div class="coffee-products">
+        <h2 class="project-header">Products</h2>
+        <div class="project-container">
+          <div class="project-card" id="project1">
+            <div class="project-number project-number-right">01</div>
+            <div class="project-content project-content-left">
+              <h2 class="project-heading">Cappuccino</h2>
+              <div class="project-subHeading">
+                Similar to a latte, but with equal parts espresso, steamed milk, and thick foam, for a stronger coffee taste.
+              </div>
+              <div class="btn-group">
+                <button class="btn-pink">Read More</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" id="project2">
+            <div class="project-number project-number-left">02</div>
+            <div class="project-content project-content-right">
+              <h2 class="project-heading">Mocha</h2>
+              <div class="project-subHeading">
+                <!-- Made like a latte but with added chocolate, either as syrup or cocoa powder. -->
+                Mochas can taste rich and creamy, like hot chocolate, but with a caffeine kick.
+              </div>
+              <div class="btn-group">
+                <button class="btn-pink btn-project">Read More</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" id="project3">
+            <div class="project-number project-number-right">03</div>
+            <div class="project-content project-content-left">
+              <h2 class="project-heading">Americano</h2>
+              <div class="project-subHeading">
+                An espresso shot diluted with water, similar in appearance to brewed coffee but with a richer taste and a layer of crema.
+              </div>
+              <div class="btn-group">
+                <button class="btn-pink btn-project">Read More</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" id="project4">
+            <div class="project-number project-number-left">04</div>
+            <div class="project-content project-content-right">
+              <h2 class="project-heading">Red Eye Coffee</h2>
+              <div class="project-subHeading">
+                a strong coffee drink made by adding a shot of espresso to an 8 ounce cup of brewed drip coffee
+              </div>
+              <div class="btn-group">
+                <button class="btn-pink btn-project">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+    <script src="coffee.js"></script>
+</body>
+</html>
